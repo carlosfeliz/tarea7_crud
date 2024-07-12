@@ -18,3 +18,8 @@ Respuesta: Usa el paquete `sqflite_common_ffi` para pruebas en memoria y asegúr
 
 ¿Qué consideraciones de seguridad debo tener en cuenta al utilizar SQLite en Flutter?
 Respuesta: Asegura la base de datos utilizando cifrado (ej. SQLCipher) y maneja correctamente las entradas de usuario para prevenir inyecciones SQL.
+
+
+
+Enlace de youtube del tutorial de persistencia de datos con SQLite en Flutter
+https://youtu.be/DDOQ9EKiPIk?si=HPaNPzW6SfIDyN-O
