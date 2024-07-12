@@ -1,0 +1,20 @@
+Yo Carlos Aloberto Feliz Recio con Matricula 2021-322 Confirmo que domino el guardar y leer información desde alguna tecnología móvil y estoy dispuesto en cualquier momento a hacer un demo de como se hace eso. 
+Si me solicitan hacer el demo en la clase, digo que no, no puedo y he subido este archivo indicando que me lo sé... por favor profesor quíteme 10 puntos.
+
+Inteligencia Artificial Utilizada: ChatGPT
+Prompt: Investiga sobre como uno puede almacenar información en algún framework de desarrollo móvil, usando alguna db local . Te recomendamos practicar haciendo un crud. Pregunta a alguna inteligencia artificial que recomendaciones te da en este punto.
+Texto Respondido por la IA: 
+¿Cuáles son las mejores prácticas para manejar operaciones CRUD en SQLite con Flutter?
+Respuesta: Asegúrate de utilizar transacciones para operaciones complejas, cerrar la base de datos correctamente y manejar errores de forma efectiva.
+
+¿Cómo puedo mejorar el rendimiento de mi base de datos SQLite en Flutter?
+Respuesta: Utiliza índices en columnas que se consultan frecuentemente, y optimiza las consultas para minimizar el uso de memoria y tiempo de ejecución.
+
+¿Cuál es la manera recomendada de manejar la versión de la base de datos en Flutter?
+Respuesta: Implementa un esquema de migración en el método `onUpgrade` del `openDatabase` para manejar cambios en la estructura de la base de datos.
+
+¿Cómo puedo realizar pruebas unitarias en Flutter para funciones que interactúan con SQLite?
+Respuesta: Usa el paquete `sqflite_common_ffi` para pruebas en memoria y asegúrate de aislar las dependencias de la base de datos en tus pruebas.
+
+¿Qué consideraciones de seguridad debo tener en cuenta al utilizar SQLite en Flutter?
+Respuesta: Asegura la base de datos utilizando cifrado (ej. SQLCipher) y maneja correctamente las entradas de usuario para prevenir inyecciones SQL.
