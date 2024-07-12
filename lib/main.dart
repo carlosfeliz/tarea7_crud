@@ -1,4 +1,4 @@
-// lib/main.dart
+
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'user_model.dart';
@@ -69,17 +69,14 @@ class _HomePageState extends State<HomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                ElevatedButton(
+                ElevatedButton.icon(
                   onPressed: _insert,
-                  child: const Text('Insertar'),
+                  icon: const Icon(Icons.add),
+                  label: const Text('Insertar'),
                 ),
                 ElevatedButton(
-                  onPressed: _update,
-                  child: const Text('Actualizar'),
-                ),
-                ElevatedButton(
-                  onPressed: _confirmDelete,
-                  child: const Text('Eliminar'),
+                  onPressed: _cancel,
+                  child: const Text('Cancelar'),
                 ),
               ],
             ),
@@ -163,6 +160,14 @@ class _HomePageState extends State<HomePage> {
         selectedUser = null;
       });
     }
+  }
+
+  void _cancel() {
+    nameController.clear();
+    ageController.clear();
+    setState(() {
+      selectedUser = null;
+    });
   }
 
   void _delete(User user) {
