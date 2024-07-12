@@ -47,23 +47,23 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tarea 7 Crud'),
-        centerTitle: true, // Centra el título en el AppBar
+        centerTitle: true, 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center, // Centra los elementos horizontalmente
+          crossAxisAlignment: CrossAxisAlignment.center, 
           children: [
             TextField(
               controller: nameController,
               decoration: const InputDecoration(labelText: 'Nombre'),
-              textAlign: TextAlign.center, // Centra el texto dentro del TextField
+              textAlign: TextAlign.center, 
             ),
             TextField(
               controller: ageController,
               decoration: const InputDecoration(labelText: 'Edad'),
               keyboardType: TextInputType.number,
-              textAlign: TextAlign.center, // Centra el texto dentro del TextField
+              textAlign: TextAlign.center, 
             ),
             const SizedBox(height: 20),
             Row(
@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                 ElevatedButton.icon(
                   onPressed: _insert,
                   icon: const Icon(Icons.add),
-                  label: const Text('Insertar'),
+                  label: const Text('Agregar'),
                 ),
                 ElevatedButton(
                   onPressed: _cancel,
